@@ -1,6 +1,6 @@
 // let mass = ['asd', 'iop', 'wer', 'tyu', 'hjk', 'vbn', 'ert', 'dfg', 'zxc', 'qwe'];
 // console.log(mass);
-//
+
 // let book = {
 //     cost: 150,
 //     pageCount: 300,
@@ -17,9 +17,9 @@
 // .then(users => {
 //     for (const user of users) {
 //         let li = document.createElement('li');
-//         li.innerText = user.id;
+//         li.innerText = user.name;
 //         let li1 = document.createElement('li1');
-//         li1.innerText = user.name;
+//         li1.innerText = user.id;
 //         let li2 = document.createElement('li2');
 //         li2.innerText = user.email;
 //             menu.append(li,li1,li2);
@@ -120,16 +120,39 @@
 // }
 
 
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
-if (coursesAndDurationArray.monthDuration || 5){
-    console.log('Super')
-} else {
+// let a = prompt();
+// switch (a) {
+//     case null:
+//     case undefined:
+//     case 0:
+//         break
+//     default:
+//         console.log('default')
+// }
 
-}
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
+// let study = coursesAndDurationArray.monthDuration
+// if (study[0] > 5){
+//     console.log('super')
+// }
+// else if (study[1] > 5){
+//     console.log('super')
+// }
+// else if (study[2] > 5){
+//     console.log('super')
+// }
+// else if (study[3] > 5){
+//     console.log('super')
+// }
+// else if (study[4] > 5){
+//     console.log('super')
+// }else if (study[5] > 5){
+//     console.log('super')
+// }
