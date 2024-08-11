@@ -138,21 +138,18 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-// let study = coursesAndDurationArray.monthDuration
-// if (study[0] > 5){
-//     console.log('super')
-// }
-// else if (study[1] > 5){
-//     console.log('super')
-// }
-// else if (study[2] > 5){
-//     console.log('super')
-// }
-// else if (study[3] > 5){
-//     console.log('super')
-// }
-// else if (study[4] > 5){
-//     console.log('super')
-// }else if (study[5] > 5){
-//     console.log('super')
+// for (let i = 0; i < coursesAndDurationArray.length; i++){
+//     if (coursesAndDurationArray[i].monthDuration >= 5){
+//         console.log('Good');
+//     }
+//     else {
+//         console.log('Bad')
+//     }
+
+// for (const element of coursesAndDurationArray){
+//     if(element.monthDuration > 5){
+//         console.log('Super')
+//     } else {
+//         console.log('Not bad')
+//     }
 // }
