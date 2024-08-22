@@ -2,24 +2,35 @@
 // console.log(str.length);
 
 // let str = (text) => {
-//     console.log(text.toUpperCase(''));
+//     console.log(text.toUpperCase());
 //     return text
 // }
 // str('hello world')
 
 // let str = (text) => {
-//     console.log(text.toLowerCase(''));
+//     console.log(text.toLowerCase());
 //     return text
 // }
 // str('LOREM IPSUM')
 
 // let str = ' dirty string   ';
-// console.log(str)
-// console.log(str.replace('', 'yo'));
+// const s = str.trim();
+// console.log(s)
+// console.log(s.length);
+// console.log(str.length);
 
 // let str = 'Ревуть воли як ясла повні';
 // let arr = str.split(['Ревуть', 'воли', 'як', 'ясла', 'повні']);
 // console.log(arr)
+//
+// function strtoarr(str){
+//     if (str){
+//         const split = str.split(' ');
+//         return split;
+//     }
+//     return ['']
+// }
+// console.log(strtoarr(str))
 
 // const numbers = [10,8,-7,55,987,-1011,0,1050,0];
 // const strings = numbers.map (value => value.toString());
@@ -120,3 +131,81 @@
 //     clubs:[]
 // })
 // console.log(reduce)
+
+// let coursesArray = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+//
+// console.log(coursesArray.filter(course =>{
+//     return course.modules.includes('sass')
+// }));
+//
+// console.log(coursesArray.filter(course =>{
+//     return course.modules.includes('docker')
+// }));
