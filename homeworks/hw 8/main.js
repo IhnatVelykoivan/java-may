@@ -30,4 +30,3 @@ let coursesAndDurationArray = [
 
 console.log(coursesAndDurationArray.map((course, index) => ({...course, id: index + 1})));
 
-JSON.
